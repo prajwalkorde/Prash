@@ -27,10 +27,34 @@ cd mini-shell
 make
 ./shell
 
+## 💻 Example Usage (Demo)
+
+> Quick demo of **PrashShell** in action:
+
+```bash
+prash:) > help
+Mini Shell Commands:
+  cd <dir>     - change directory
+  history      - show command history
+  clear        - clear the screen
+  help         - show this help message
+  exit         - exit the shell
+You can also run external commands like ls, cat, echo, etc.
+
+prash:) > pwd
+/home/user/projects/prashshell
+
+prash:) > ls
+shell.c  README.md  Makefile
+
+prash:) > history
+1: help
+2: pwd
+3: ls
+4: history
 
 prash:) > cd /tmp
 prash:) > pwd
 /tmp
 
 prash:) > exit
-
