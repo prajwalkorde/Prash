@@ -26,3 +26,11 @@ git clone https://github.com/<your-username>/mini-shell.git
 cd mini-shell
 make
 ./shell
+
+
+prash:) > cd /tmp
+prash:) > pwd
+/tmp
+
+prash:) > exit
+
